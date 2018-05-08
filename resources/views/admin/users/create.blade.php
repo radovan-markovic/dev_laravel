@@ -13,7 +13,7 @@
 
         <div>
             {!! Form::label('email', 'email') !!}
-            {!! Form::text('email', null, ['class' => 'form-control']); !!}
+            {!! Form::text('email', null, ['class' => 'form-control', 'value' => '']); !!}
         </div>
 
          <div>
@@ -28,7 +28,7 @@
 
         <div>
             {!! Form::label('password', 'Password') !!}
-            {!! Form::password('password',  ['class' => 'form-control', 'style'=>'height: auto']); !!}
+            {!! Form::password('password',  ['class' => 'form-control', 'style'=>'height: auto', 'value' => '']); !!}
         </div>
 
          <div>
